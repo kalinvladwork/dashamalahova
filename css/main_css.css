@@ -1,0 +1,387 @@
+@import url(reset.css);
+.clear {
+    clear: both;
+}
+body {
+    background-image: url(../images/bodyBg.jpg);
+    background-repeat: repeat;
+}
+.wrapper {
+    outline: 1px solid #cccccc;
+    width: 1000px;
+    height: auto;
+    position: relative;
+    margin: 40px auto 0;
+    background-color: #e9eff5;
+	
+}
+.a_hover:hover {
+    color: #e54555;
+    text-decoration: none;
+}
+/*  beginning of the block  header */
+header, .header {
+	outline: 1px solid #cccccc;
+    width: 1000px;
+    height: 130px;
+	position: relative;
+    font: 13px Arial, sans-serif;
+    line-height: 20px;
+    color:  #424249;
+}
+header a, .header a {
+    font: 13px Arial, sans-serif;
+    color:  #424249;
+}
+.logo {
+    width: 201px;
+    height: 126px;
+	position: absolute;
+	left: 20px;
+	top: -17px;
+}
+.registration {
+	width: 198px;
+    height: 35px;
+    position: absolute;
+	left: 280px;
+	top: 50%;
+    margin-top: -17px;    
+}
+#log_in {
+    text-decoration: none;
+    border-bottom: 1px #424249 dotted;
+}
+.SocVidget {
+    width: 198px;
+    height: 35px;
+    position: absolute;
+	left: 480px;
+	top: 50%;
+    margin-top: -17px;
+}
+.SocVidget p {
+    font: italic 11px Arial, sans-serif;
+    color: #888890;
+}
+.SocVidget img {
+    margin-bottom: -3px;
+}
+.seachForm {
+    width: 243px;
+    height: 81px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #ffffff;  
+}
+.seach {
+    width: 200px;
+    height: 26px;
+    margin: 17px 18px 6px 20px;
+}
+.seachForm a {
+    text-decoration: none;
+    border-bottom: 1px #424249 dotted;
+    font: italic 11px Arial, sans-serif;
+    margin-left: 20px;
+}
+/*  end of block  header */
+/*  beginning of the block  navigation */
+.navigation {
+    outline: 1px solid #cccccc;
+    width: 960px;
+    height: 48px;
+	margin-left: 20px;
+    position: relative;
+    background-color: #ffffff;
+}
+.navBottomLine {
+    width: 960px;
+    height: 5px;
+    background-image: url(../images/navBottomLine.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.navigation ul li {
+    float: left;  
+}
+.navigation ul li a{
+    height: 48px;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+.navigation ul li span{
+    outline: 1px solid #cccccc;
+    font: 12px Georgia, serif;
+    text-transform: uppercase;
+    color: #33424b ;
+    background-image: url(../images/);
+}
+/*  end of block  navigation */
+/*  beginning of the block  content */
+.content {
+    outline: 1px solid #cccccc;
+    width: 960px;
+    height: auto;
+	margin: 20px;
+    position: relative;
+}
+h4 {
+    margin-bottom: 10px;
+}
+h4 a{
+    font: 10px Georgia, sans-serif;
+    color: #888890;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+h4 a:hover {
+    color: #e54555;
+    text-decoration: none;
+}
+h3 {
+    margin-bottom: 15px;
+}
+h3 a{
+    font: 18px Georgia, sans-serif;
+    color: #424249;
+    text-transform: uppercase;
+    text-decoration: underline;  
+}
+h3 a:hover {
+    color: #e54555;
+    text-decoration: none;
+}
+.int {
+    background: url("../images/int.png") no-repeat scroll 0 100% transparent;
+    cursor: default;
+    display: block;
+    height: 6px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 19px;
+    margin-top: 5px;
+}
+/* slider _______________________________*/
+.slider {
+    outline: 1px solid #999;
+    width: 699px;
+    height: 465px;
+    background-color: #ffffff;
+}
+.B_header {
+    outline: 1px solid #cccccc;
+    width: 699px;
+    height: 39px;
+}
+.B_inner {
+    outline: 1px solid #cccccc;
+    width: 699px;
+    height: 426px;
+    position: relative;
+}
+
+.Gallery_text {
+    width: auto;
+    height: 66px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0 12px 15px 12px;
+    padding: 3px 10px;
+    -moz-background: url(../images/border_sliderBg.png) repeat;
+    background-clip: padding-box;
+    border: 14px solid;
+    border-image: url(../images/border_slider.png) 13 repeat;
+    -webkit-border-image: url(../images/border_slider.png) 13 repeat;
+    -o-border-image: url(../images/border_slider.png) 13 repeat;    
+    color: #fff;
+    font: 13px Arial, sans-serif;
+}
+.Gallery_text h2 a{
+    text-decoration: none;
+    font: 24px Georgia, sans-serif;
+    color: #fff;
+}
+.Gallery_text:hover a {
+    text-decoration: underline;
+}
+/* news _______________________________*/
+.news {
+    outline: 1px solid #676767;
+    width: 699px;
+    height: 966px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.news p {
+    font: 13px Helvetica, Georgia, sans-serif;
+    color: #424249;
+    line-height: 20px;
+}
+.news_title {
+    width: auto;
+    height: 35px;
+    margin: 20px;
+    padding-top: 17px;
+    border-bottom: 3px double #676767;
+}
+.news_title h2 {
+    font: 18px Georgia, sans-serif;
+    text-transform: uppercase;
+    color: #424249;  
+}
+.Li3 {
+    width: 780px;
+    height: 339px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.Li2 {
+    width: 780px;
+    height: 439px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.LiCol {
+    width: 179px;
+    margin-right:62px;
+    float:left;
+}
+.LiColDouble{
+    width: 421px;
+    margin-right:62px;
+    float:left;
+}
+.LiCol a.img img {
+    width: 179px;
+    height: 121px;
+}
+.newsMore {
+    display: block;
+    width: 644px;
+    height: 33px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 8px solid;
+    border-image: url(../images/border.png) 8 repeat;
+    -moz-border-image: url(../images/border.png) 8 repeat;
+    -webkit-border-image: url(../images/border.png) 8 repeat;
+    -o-border-image: url(../images/border.png) 8 repeat;
+}
+/*  sidebar  _____________________ */
+.sidebar {
+    outline: 1px solid #444;
+    width: 240px;
+    height: 1328px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*  commens  _____________________ */
+.commens {
+    outline: 1px solid #999;
+    width: 240px;
+    height: auto;
+    background-image:  url(../images/navBottomLine.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+}
+.commens ul li {
+    outline: 1px solid #999;
+    width: auto;
+    height: auto;
+    margin:  10px 20px 20px 20px;
+}
+.commens p {
+    font: italic 12px Georgia, sans-serif;
+    line-height: 20px;
+}
+.commens p a{
+    color: #424249;
+    text-decoration: none;
+}
+.commens p a:hover {
+    color: #e54555;
+}
+.commens_title{
+    width: auto;
+    height: 35px;
+    margin: 0 20px 20px 20px;
+    padding-top: 17px;
+    border-bottom: 3px double #676767;
+}
+.commens_title h2 {
+    font: 18px Georgia, sans-serif;
+    text-transform: uppercase;
+    color: #424249;
+}
+.TechInfo {
+	font: italic 11px Georgia, sans-serif;
+	color: #888890;
+    text-decoration: none;
+}
+/*  baner  _____________________ */
+.baner {
+    outline: 1px solid #999;
+    width: 240px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+/*  advice  _____________________ */
+.advice {
+    width: 240px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.advice_border {
+    width: 203px;
+    height: auto;
+    background: url(../images/adviceBg.png) repeat;
+    background-clip: padding-box;
+    border: 19px solid;
+    border-image: url(../images/border_advice.png) 19 repeat;
+    -moz-border-image: url(../images/border_advice.png) 19 repeat;
+    -webkit-border-image: url(../images/border_advice.png) 19 repeat;
+    -o-border-image: url(../images/border_advice.png) 19 repeat;
+}
+.advice_border p{
+    font: 18px Georgia, sans-serif;
+    color: #ffffff;
+}
+.advice_more {
+    font: 13px Arial, sans-serif;
+    color: #424249;
+    text-decoration: none;
+    border-bottom: 1px #424249 dotted;
+    background-image: url(../images/advice_more.png);
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+/*  Facebook  _____________________ */
+.vidgetFacebook {
+    outline: 1px solid #999;
+    width: 240px;
+    height: 255px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/*  end of block  content */ 
+
+.footer {
+    outline: 1px solid #cccccc;
+    width: 1000px;
+    height: 110px;
+    padding: 30px 10px 70px 10px;
+    margin: auto;
+}
